@@ -1,0 +1,177 @@
+<!doctype html>
+<!--Conditionals for IE8-9 Support-->
+<!--[if IE]><html lang="en" class="ie"><![endif]-->
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Janvier Construction</title>
+    <!--SEO Meta Tags-->
+    <meta name="description" content="Responsive Multipurpose HTML5 Template" />
+    <meta name="keywords" content="responsive html5 template, multipurpose, blog, portfolio, e-commerce, bootstrap 3.2, css, jquery, flat, modern" />
+    <meta name="author" content="8Guild" />
+    <!--Mobile Specific Meta Tag-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <!--Favicon-->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <!--Master Slider Styles-->
+    <link href="masterslider/style/masterslider.css" rel="stylesheet" media="screen">
+    <!--Master Slider Skin Light-6 Used For Product Showcase Slider-->
+    <link href="masterslider/skins/light-6/style.css" rel="stylesheet" media="screen">
+    <!--Kedavra Stylesheet-->
+    <link href="css/styles.css" rel="stylesheet" media="screen">
+    <!--Adding Bootstrap paper file-->
+    <link href="css/bootstrap.css" rel="stylesheet" media="screen">
+    <!--Google Maps API-->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA5DLwPPVAz88_k0yO2nmFe7T9k1urQs84"></script>
+    <!--Modernizr-->
+    <script src="js/libs/modernizr.custom.js"></script>
+    <!--Adding Media Queries Support for IE8-->
+    <!--[if lt IE 9]>
+    <script src="js/plugins/respond.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+<header class="header sticky"><!--Adding class "sticky" to header enables its pinning to top on scroll. Please note in a "boxed" mode header doesn't stick to the top.-->
+    <div class="inner">
+        <div class="container group">
+            <!--Logo-->
+            <img class="LOGO" src="JC-Logo.jpg" >
+
+            <!--Site Navigation-->
+            <nav class="container">
+                <div>
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="#">Services</a>
+                    </div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="aboutUs.html">About us<span class="sr-only">(current)</span></a></li>
+                            <li><a href="contactUs.html">Contact Us</a></li>
+                            <li class="active"><a href="index.html">Home<span class="sr-only">(current)</span></a></li>
+                        </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+            <!--Quick Search-->
+        </div>
+    </div>
+</header>
+
+<section style="background-image:url(Janvier15.jpg);" class="hero-static fullscreen" data-stellar-background-ratio="0.5">
+    <div class="overlay dark"></div>
+    <div class="inner">
+        <div class="content">
+            <div class="container">
+                <h1 class="light-color with-shadow">Janvier Construction</h1>
+                <h4 class="light-color with-shadow">Contact Us</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="jumbotron jumbotron-sm">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-md-offset-4">
+                <h1 class="h1 pictures">
+                    Contact us <span></span></h1>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <div class="well well-sm">
+                <form>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="name">
+                                    Name</label>
+                                <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                            </div>
+                            <div class="form-group">
+                                <label for="email">
+                                    Email Address</label>
+                                <div class="input-group">
+                                <span class="input-group-addon"><span class="fa fa-envelope"></span>
+                                </span>
+                                    <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">
+                                    Subject</label>
+                                <select id="subject" name="subject" class="form-control" required="required">
+                                    <option value="na" selected="">Choose One:</option>
+                                    <option value="service">General Customer Service</option>
+                                    <option value="suggestions">Suggestions</option>
+                                    <option value="product">Product Support</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="name">
+                                   <span class="fa fa-pencil"></span> Message</label>
+                                <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                          placeholder="Click here to enter message..."></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-12">
+                            <button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                                Send</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <form>
+                <legend><span class="fa fa-globe"></span> Our Location</legend>
+                <div class="contacts">
+                    <h3>Contact Info</h3>
+                    <h5>Address:</h5>
+                    <p>105448 Casa Blanca BLVD New York</p>
+                    <h5>Phone numbers:</h5>
+                    <p>+587.920.8001</p>
+                    <h5>E-mail:</h5>
+                    <p><a href="mailto:corey.janvier@summitcivils.com">corey.janvier@summitcivils.com</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<script src="js/libs/jquery-1.11.1.min.js"></script>
+<script src="js/libs/jquery.easing.min.js"></script>
+<script src="js/plugins/bootstrap.min.js"></script>
+<script src="js/plugins/smoothscroll.js"></script>
+<script src="js/plugins/utilities.js"></script>
+<script src="js/plugins/foundation.min.js"></script>
+<script src="js/plugins/jquery.placeholder.js"></script>
+<script src="js/plugins/icheck.min.js"></script>
+<script src="js/plugins/jquery.validate.min.js"></script>
+<script src="js/plugins/waypoints.min.js"></script>
+<script src="js/plugins/isotope.min.js"></script>
+<script src="js/plugins/masterslider.min.js"></script>
+<script src="js/plugins/owl.carousel.min.js"></script>
+<script src="js/plugins/lightGallery.min.js"></script>
+<script src="js/plugins/jquery.stellar.min.js"></script>
+<script src="js/plugins/jquery.parallax.min.js"></script>
+<script src="js/plugins/chart.min.js"></script>
+<script src="js/plugins/jquery-numerator.js"></script>
+<script src="js/plugins/jquery.countdown.min.js"></script>
+<script src="js/plugins/jquery.easypiechart.min.js"></script>
+<script src="js/plugins/jquery.nouislider.min.js"></script>
+<script src="js/plugins/card.min.js"></script>
+<script src="js/scripts.js"></script>
+
+</body><!--Body Close-->
+</html>
